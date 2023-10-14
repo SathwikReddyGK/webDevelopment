@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 30px;
+    height: 250px;
+    background-color: slateblue;
+    margin: 10px;
+    cursor: pointer;
+    transition: width 0.3s ease-in, height 0.3s ease-in;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.expanded{
+    width: 500px;
+    height: 270px;
+}
+
+.b1{
+    background-image: url('mountainBoat.avif');
+}
+
+.b2{
+    background-image: url('mountain.avif');
+}
+
+.b3{
+    background-image: url('landscape.avif');
+}
+
+.b4{
+    background-image: url('morningMist.avif');
+}
