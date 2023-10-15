@@ -1,9 +1,16 @@
+h1{
+    font-family: 'Tangerine', serif;
+    font-size: 120px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
 body{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    margin: 0;
+    margin: 10;
     background-color: #222;
 }
 
